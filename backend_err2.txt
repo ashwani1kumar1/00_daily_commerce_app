@@ -1,0 +1,254 @@
+﻿
+> backend-nest@0.0.1 start:dev
+> nest start --watch
+
+[2J[3J[H[[90m3:03:47 am[0m] Starting compilation in watch mode...
+
+[[90m3:04:02 am[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +72ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +167ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSeedModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCategoriesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mServicesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mProvidersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPaymentsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mReviewsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMatchingModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBookingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAdminModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/api/v1/users}:[39m[38;5;3m +56ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/users, POST} route[39m[38;5;3m +6ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/users, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/users/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCategoriesController {/api/v1/categories}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/categories, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/categories, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/categories/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mServicesController {/api/v1/services}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/services, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/services, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/services/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mProvidersController {/api/v1/providers}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/providers, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/providers, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/providers/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/providers/:id/kyc, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/providers/:id/services, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/providers/:id/location, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mBookingsController {/api/v1/bookings}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/bookings, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/bookings, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/bookings/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/bookings/:id/status, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mPaymentsController {/api/v1/payments}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/payments/intent, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/payments/confirm, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/payments/webhook, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mReviewsController {/api/v1/reviews}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/reviews, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/reviews/booking/:bookingId, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mMatchingController {/api/v1/matching}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/matching/providers, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAdminController {/api/v1/admin}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/admin/dashboard, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/admin/providers/pending, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/admin/providers/:id/verify, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/admin/bookings, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:06 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32mSeeding MVP categories and services...[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Electrician → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Plumber → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Cleaner / Maid → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Carpenter → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Nanny / Babysitter → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Daily Wager → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Mistri → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Halwai / Caterer → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Barber → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Decorator → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Newspaper Vendor → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Blacksmith → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Jeweler → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Electronics Repair → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Painter → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Roofer → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ HVAC → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Pest Control → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Laundry / Ironing → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Driving / Valet → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Car Wash / Detailing → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Locksmith → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Appliance Installer → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ CCTV/Solar Installer → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Gardener → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Tutor → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Physiotherapist → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Masseur → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Pet Groomer → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Delivery / Errand → 1 services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:07 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32mSeeding mock users...[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:08 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32m  ✓ Created Mock Provider with 30 linked services[39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:08 am [32m    LOG[39m [38;5;3m[SeedService] [39m[32mSeeding complete![39m
+[32m[Nest] 9068  - [39m15/03/2026, 3:04:08 am [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+🚀 Server running on http://localhost:3000
+📚 Swagger docs at http://localhost:3000/api/docs
+[2J[3J[H[[90m3:45:31 am[0m] File change detected. Starting incremental compilation...
+
+node.exe : ERROR: This 
+operation returned 
+because the timeout 
+period expired.
+At C:\Program Files\nod
+ejs\npm.ps1:29 char:3
++   & $NODE_EXE 
+$NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (ERROR: This o   
+ pe...period expire    
+d.:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+
+ERROR: This operation 
+returned because the 
+timeout period expired.
+
+node:child_process:967
+    throw err;
+    ^
+
+Error: Command failed: 
+taskkill /pid 18168 /T 
+/F
+ERROR: This operation 
+returned because the 
+timeout period expired.
+
+
+
+    at 
+genericNodeError (node:
+internal/errors:983:15)
+    at wrappedFn (node:
+internal/errors:537:14)
+    at 
+checkExecSyncError (nod
+e:child_process:892:11)
+    at execSync (node:c
+hild_process:964:15)
+    at treeKillSync (C:
+\Users\ashwa\OneDrive\D
+esktop\00_prototype_app
+\backend-nest\node_modu
+les\@nestjs\cli\lib\uti
+ls\tree-kill.js:7:38)
+    at C:\Users\ashwa\O
+neDrive\Desktop\00_prot
+otype_app\backend-nest\
+node_modules\@nestjs\cl
+i\actions\start.action.
+js:68:46
+    at Object.onWatchSt
+atusChange (C:\Users\as
+hwa\OneDrive\Desktop\00
+_prototype_app\backend-
+nest\node_modules\@nest
+js\cli\lib\compiler\wat
+ch-compiler.js:83:17)
+    at C:\Users\ashwa\O
+neDrive\Desktop\00_prot
+otype_app\backend-nest\
+node_modules\typescript
+\lib\typescript.js:1339
+16:30
+    at emitFilesAndRepo
+rtErrors (C:\Users\ashw
+a\OneDrive\Desktop\00_p
+rototype_app\backend-ne
+st\node_modules\typescr
+ipt\lib\typescript.js:1
+33737:5)
+    at result.afterProg
+ramCreate (C:\Users\ash
+wa\OneDrive\Desktop\00_
+prototype_app\backend-n
+est\node_modules\typesc
+ript\lib\typescript.js:
+133912:5) {
+  status: 1,
+  signal: null,
+  output: [
+    null,
+    Buffer(0) 
+[Uint8Array] [],
+    Buffer(69) 
+[Uint8Array] [
+       69,  82,  82,  
+79,  82,  58,  32,  
+84, 104, 105, 115,
+       32, 111, 112, 
+101, 114,  97, 116, 
+105, 111, 110,  32,
+      114, 101, 116, 
+117, 114, 110, 101, 
+100,  32,  98, 101,
+       99,  97, 117, 
+115, 101,  32, 116, 
+104, 101,  32, 116,
+      105, 109, 101, 
+111, 117, 116,  32, 
+112, 101, 114, 105,
+      111, 100,  32, 
+101, 120, 112, 105, 
+114, 101, 100,  46,
+       13,  13,  10
+    ]
+  ],
+  pid: 13648,
+  stdout: Buffer(0) 
+[Uint8Array] [],
+  stderr: Buffer(69) 
+[Uint8Array] [
+     69,  82,  82,  
+79,  82,  58,  32,  
+84, 104, 105, 115,
+     32, 111, 112, 
+101, 114,  97, 116, 
+105, 111, 110,  32,
+    114, 101, 116, 
+117, 114, 110, 101, 
+100,  32,  98, 101,
+     99,  97, 117, 
+115, 101,  32, 116, 
+104, 101,  32, 116,
+    105, 109, 101, 
+111, 117, 116,  32, 
+112, 101, 114, 105,
+    111, 100,  32, 
+101, 120, 112, 105, 
+114, 101, 100,  46,
+     13,  13,  10
+  ]
+}
+
+Node.js v24.1.0

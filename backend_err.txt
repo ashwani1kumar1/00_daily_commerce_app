@@ -1,0 +1,717 @@
+﻿
+> backend-nest@0.0.1 start
+> nest start
+
+[32m[Nest] 28928  - [39m15/03/2026, 3:01:28 am [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 28928  - [39m15/03/2026, 3:01:28 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +138ms[39m
+[32m[Nest] 28928  - [39m15/03/2026, 3:01:28 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 28928  - [39m15/03/2026, 3:01:28 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 28928  - [39m15/03/2026, 3:01:28 am [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+node.exe : [31m[Nest] 
+28928  - 
+[39m15/03/2026, 
+3:01:29 am [31m  
+ERROR[39m [38;5;3m[Ty
+peOrmModule] 
+[39m[31mUnable to 
+connect to the 
+database. Retrying 
+(1)...[39m
+At C:\Program Files\nod
+ejs\npm.ps1:29 char:3
++   & $NODE_EXE 
+$NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: ([31m[Nest] 2   
+ 89...ing (1)...[3    
+9m:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+DataTypeNotSupportedErr
+or: Data type "enum" 
+in 
+"Service.pricingModel" 
+is not supported by 
+"sqlite" database.
+    at <anonymous> (C:\
+Users\ashwa\OneDrive\De
+sktop\00_prototype_app\
+backend-nest\node_modul
+es\typeorm\metadata-bui
+lder\src\metadata-build
+er\EntityMetadataValida
+tor.ts:133:31)
+    at Array.forEach 
+(<anonymous>)
+    at EntityMetadataVa
+lidator.validate (C:\Us
+ers\ashwa\OneDrive\Desk
+top\00_prototype_app\ba
+ckend-nest\node_modules
+\typeorm\metadata-build
+er\src\metadata-builder
+\EntityMetadataValidato
+r.ts:128:18)
+    at <anonymous> (C:\
+Users\ashwa\OneDrive\De
+sktop\00_prototype_app\
+backend-nest\node_modul
+es\typeorm\metadata-bui
+lder\src\metadata-build
+er\EntityMetadataValida
+tor.ts:43:18)
+    at Array.forEach 
+(<anonymous>)
+    at EntityMetadataVa
+lidator.validateMany (C
+:\Users\ashwa\OneDrive\
+Desktop\00_prototype_ap
+p\backend-nest\node_mod
+ules\typeorm\metadata-b
+uilder\src\metadata-bui
+lder\EntityMetadataVali
+dator.ts:42:25)
+    at DataSource.build
+Metadatas (C:\Users\ash
+wa\OneDrive\Desktop\00_
+prototype_app\backend-n
+est\node_modules\typeor
+m\data-source\src\data-
+source\DataSource.ts:75
+3:33)
+    at async 
+DataSource.initialize (
+C:\Users\ashwa\OneDrive
+\Desktop\00_prototype_a
+pp\backend-nest\node_mo
+dules\typeorm\data-sour
+ce\src\data-source\Data
+Source.ts:264:13)
+[31m[Nest] 28928  - 
+[39m15/03/2026, 
+3:01:32 am [31m  
+ERROR[39m [38;5;3m[Ty
+peOrmModule] 
+[39m[31mUnable to 
+connect to the 
+database. Retrying 
+(2)...[39m
+DataTypeNotSupportedErr
+or: Data type "enum" 
+in 
+"Service.pricingModel" 
+is not supported by 
+"sqlite" database.
+    at <anonymous> (C:\
+Users\ashwa\OneDrive\De
+sktop\00_prototype_app\
+backend-nest\node_modul
+es\typeorm\metadata-bui
+lder\src\metadata-build
+er\EntityMetadataValida
+tor.ts:133:31)
+    at Array.forEach 
+(<anonymous>)
+    at EntityMetadataVa
+lidator.validate (C:\Us
+ers\ashwa\OneDrive\Desk
+top\00_prototype_app\ba
+ckend-nest\node_modules
+\typeorm\metadata-build
+er\src\metadata-builder
+\EntityMetadataValidato
+r.ts:128:18)
+    at <anonymous> (C:\
+Users\ashwa\OneDrive\De
+sktop\00_prototype_app\
+backend-nest\node_modul
+es\typeorm\metadata-bui
+lder\src\metadata-build
+er\EntityMetadataValida
+tor.ts:43:18)
+    at Array.forEach 
+(<anonymous>)
+    at EntityMetadataVa
+lidator.validateMany (C
+:\Users\ashwa\OneDrive\
+Desktop\00_prototype_ap
+p\backend-nest\node_mod
+ules\typeorm\metadata-b
+uilder\src\metadata-bui
+lder\EntityMetadataVali
+dator.ts:42:25)
+    at DataSource.build
+Metadatas (C:\Users\ash
+wa\OneDrive\Desktop\00_
+prototype_app\backend-n
+est\node_modules\typeor
+m\data-source\src\data-
+source\DataSource.ts:75
+3:33)
+    at async 
+DataSource.initialize (
+C:\Users\ashwa\OneDrive
+\Desktop\00_prototype_a
+pp\backend-nest\node_mo
+dules\typeorm\data-sour
+ce\src\data-source\Data
+Source.ts:264:13)
+[31m[Nest] 28928  - 
+[39m15/03/2026, 
+3:01:35 am [31m  
+ERROR[39m [38;5;3m[Ty
+peOrmModule] 
+[39m[31mUnable to 
+connect to the 
+database. Retrying 
+(3)...[39m
+DataTypeNotSupportedErr
+or: Data type "enum" 
+in 
+"Service.pricingModel" 
+is not supported by 
+"sqlite" database.
+    at <anonymous> (C:\
+Users\ashwa\OneDrive\De
+sktop\00_prototype_app\
+backend-nest\node_modul
+es\typeorm\metadata-bui
+lder\src\metadata-build
+er\EntityMetadataValida
+tor.ts:133:31)
+    at Array.forEach 
+(<anonymous>)
+    at EntityMetadataVa
+lidator.validate (C:\Us
+ers\ashwa\OneDrive\Desk
+top\00_prototype_app\ba
+ckend-nest\node_modules
+\typeorm\metadata-build
+er\src\metadata-builder
+\EntityMetadataValidato
+r.ts:128:18)
+    at <anonymous> (C:\
+Users\ashwa\OneDrive\De
+sktop\00_prototype_app\
+backend-nest\node_modul
+es\typeorm\metadata-bui
+lder\src\metadata-build
+er\EntityMetadataValida
+tor.ts:43:18)
+    at Array.forEach 
+(<anonymous>)
+    at EntityMetadataVa
+lidator.validateMany (C
+:\Users\ashwa\OneDrive\
+Desktop\00_prototype_ap
+p\backend-nest\node_mod
+ules\typeorm\metadata-b
+uilder\src\metadata-bui
+lder\EntityMetadataVali
+dator.ts:42:25)
+    at DataSource.build
+Metadatas (C:\Users\ash
+wa\OneDrive\Desktop\00_
+prototype_app\backend-n
+est\node_modules\typeor
+m\data-source\src\data-
+source\DataSource.ts:75
+3:33)
+    at async 
+DataSource.initialize (
+C:\Users\ashwa\OneDrive
+\Desktop\00_prototype_a
+pp\backend-nest\node_mo
+dules\typeorm\data-sour
+ce\src\data-source\Data
+Source.ts:264:13)
+[31m[Nest] 28928  - 
+[39m15/03/2026, 
+3:01:38 am [31m  
+ERROR[39m [38;5;3m[Ty
+peOrmModule] 
+[39m[31mUnable to 
+connect to the 
+database. Retrying 
+(4)...[39m
+DataTypeNotSupportedErr
+or: Data type "enum" 
+in 
+"Service.pricingModel" 
+is not supported by 
+"sqlite" database.
+    at <anonymous> (C:\
+Users\ashwa\OneDrive\De
+sktop\00_prototype_app\
+backend-nest\node_modul
+es\typeorm\metadata-bui
+lder\src\metadata-build
+er\EntityMetadataValida
+tor.ts:133:31)
+    at Array.forEach 
+(<anonymous>)
+    at EntityMetadataVa
+lidator.validate (C:\Us
+ers\ashwa\OneDrive\Desk
+top\00_prototype_app\ba
+ckend-nest\node_modules
+\typeorm\metadata-build
+er\src\metadata-builder
+\EntityMetadataValidato
+r.ts:128:18)
+    at <anonymous> (C:\
+Users\ashwa\OneDrive\De
+sktop\00_prototype_app\
+backend-nest\node_modul
+es\typeorm\metadata-bui
+lder\src\metadata-build
+er\EntityMetadataValida
+tor.ts:43:18)
+    at Array.forEach 
+(<anonymous>)
+    at EntityMetadataVa
+lidator.validateMany (C
+:\Users\ashwa\OneDrive\
+Desktop\00_prototype_ap
+p\backend-nest\node_mod
+ules\typeorm\metadata-b
+uilder\src\metadata-bui
+lder\EntityMetadataVali
+dator.ts:42:25)
+    at DataSource.build
+Metadatas (C:\Users\ash
+wa\OneDrive\Desktop\00_
+prototype_app\backend-n
+est\node_modules\typeor
+m\data-source\src\data-
+source\DataSource.ts:75
+3:33)
+    at async 
+DataSource.initialize (
+C:\Users\ashwa\OneDrive
+\Desktop\00_prototype_a
+pp\backend-nest\node_mo
+dules\typeorm\data-sour
+ce\src\data-source\Data
+Source.ts:264:13)
+[31m[Nest] 28928  - 
+[39m15/03/2026, 
+3:01:41 am [31m  
+ERROR[39m [38;5;3m[Ty
+peOrmModule] 
+[39m[31mUnable to 
+connect to the 
+database. Retrying 
+(5)...[39m
+DataTypeNotSupportedErr
+or: Data type "enum" 
+in 
+"Service.pricingModel" 
+is not supported by 
+"sqlite" database.
+    at <anonymous> (C:\
+Users\ashwa\OneDrive\De
+sktop\00_prototype_app\
+backend-nest\node_modul
+es\typeorm\metadata-bui
+lder\src\metadata-build
+er\EntityMetadataValida
+tor.ts:133:31)
+    at Array.forEach 
+(<anonymous>)
+    at EntityMetadataVa
+lidator.validate (C:\Us
+ers\ashwa\OneDrive\Desk
+top\00_prototype_app\ba
+ckend-nest\node_modules
+\typeorm\metadata-build
+er\src\metadata-builder
+\EntityMetadataValidato
+r.ts:128:18)
+    at <anonymous> (C:\
+Users\ashwa\OneDrive\De
+sktop\00_prototype_app\
+backend-nest\node_modul
+es\typeorm\metadata-bui
+lder\src\metadata-build
+er\EntityMetadataValida
+tor.ts:43:18)
+    at Array.forEach 
+(<anonymous>)
+    at EntityMetadataVa
+lidator.validateMany (C
+:\Users\ashwa\OneDrive\
+Desktop\00_prototype_ap
+p\backend-nest\node_mod
+ules\typeorm\metadata-b
+uilder\src\metadata-bui
+lder\EntityMetadataVali
+dator.ts:42:25)
+    at DataSource.build
+Metadatas (C:\Users\ash
+wa\OneDrive\Desktop\00_
+prototype_app\backend-n
+est\node_modules\typeor
+m\data-source\src\data-
+source\DataSource.ts:75
+3:33)
+    at async 
+DataSource.initialize (
+C:\Users\ashwa\OneDrive
+\Desktop\00_prototype_a
+pp\backend-nest\node_mo
+dules\typeorm\data-sour
+ce\src\data-source\Data
+Source.ts:264:13)
+[31m[Nest] 28928  - 
+[39m15/03/2026, 
+3:01:44 am [31m  
+ERROR[39m [38;5;3m[Ty
+peOrmModule] 
+[39m[31mUnable to 
+connect to the 
+database. Retrying 
+(6)...[39m
+DataTypeNotSupportedErr
+or: Data type "enum" 
+in 
+"Service.pricingModel" 
+is not supported by 
+"sqlite" database.
+    at <anonymous> (C:\
+Users\ashwa\OneDrive\De
+sktop\00_prototype_app\
+backend-nest\node_modul
+es\typeorm\metadata-bui
+lder\src\metadata-build
+er\EntityMetadataValida
+tor.ts:133:31)
+    at Array.forEach 
+(<anonymous>)
+    at EntityMetadataVa
+lidator.validate (C:\Us
+ers\ashwa\OneDrive\Desk
+top\00_prototype_app\ba
+ckend-nest\node_modules
+\typeorm\metadata-build
+er\src\metadata-builder
+\EntityMetadataValidato
+r.ts:128:18)
+    at <anonymous> (C:\
+Users\ashwa\OneDrive\De
+sktop\00_prototype_app\
+backend-nest\node_modul
+es\typeorm\metadata-bui
+lder\src\metadata-build
+er\EntityMetadataValida
+tor.ts:43:18)
+    at Array.forEach 
+(<anonymous>)
+    at EntityMetadataVa
+lidator.validateMany (C
+:\Users\ashwa\OneDrive\
+Desktop\00_prototype_ap
+p\backend-nest\node_mod
+ules\typeorm\metadata-b
+uilder\src\metadata-bui
+lder\EntityMetadataVali
+dator.ts:42:25)
+    at DataSource.build
+Metadatas (C:\Users\ash
+wa\OneDrive\Desktop\00_
+prototype_app\backend-n
+est\node_modules\typeor
+m\data-source\src\data-
+source\DataSource.ts:75
+3:33)
+    at async 
+DataSource.initialize (
+C:\Users\ashwa\OneDrive
+\Desktop\00_prototype_a
+pp\backend-nest\node_mo
+dules\typeorm\data-sour
+ce\src\data-source\Data
+Source.ts:264:13)
+[31m[Nest] 28928  - 
+[39m15/03/2026, 
+3:01:47 am [31m  
+ERROR[39m [38;5;3m[Ty
+peOrmModule] 
+[39m[31mUnable to 
+connect to the 
+database. Retrying 
+(7)...[39m
+DataTypeNotSupportedErr
+or: Data type "enum" 
+in 
+"Service.pricingModel" 
+is not supported by 
+"sqlite" database.
+    at <anonymous> (C:\
+Users\ashwa\OneDrive\De
+sktop\00_prototype_app\
+backend-nest\node_modul
+es\typeorm\metadata-bui
+lder\src\metadata-build
+er\EntityMetadataValida
+tor.ts:133:31)
+    at Array.forEach 
+(<anonymous>)
+    at EntityMetadataVa
+lidator.validate (C:\Us
+ers\ashwa\OneDrive\Desk
+top\00_prototype_app\ba
+ckend-nest\node_modules
+\typeorm\metadata-build
+er\src\metadata-builder
+\EntityMetadataValidato
+r.ts:128:18)
+    at <anonymous> (C:\
+Users\ashwa\OneDrive\De
+sktop\00_prototype_app\
+backend-nest\node_modul
+es\typeorm\metadata-bui
+lder\src\metadata-build
+er\EntityMetadataValida
+tor.ts:43:18)
+    at Array.forEach 
+(<anonymous>)
+    at EntityMetadataVa
+lidator.validateMany (C
+:\Users\ashwa\OneDrive\
+Desktop\00_prototype_ap
+p\backend-nest\node_mod
+ules\typeorm\metadata-b
+uilder\src\metadata-bui
+lder\EntityMetadataVali
+dator.ts:42:25)
+    at DataSource.build
+Metadatas (C:\Users\ash
+wa\OneDrive\Desktop\00_
+prototype_app\backend-n
+est\node_modules\typeor
+m\data-source\src\data-
+source\DataSource.ts:75
+3:33)
+    at async 
+DataSource.initialize (
+C:\Users\ashwa\OneDrive
+\Desktop\00_prototype_a
+pp\backend-nest\node_mo
+dules\typeorm\data-sour
+ce\src\data-source\Data
+Source.ts:264:13)
+[31m[Nest] 28928  - 
+[39m15/03/2026, 
+3:01:50 am [31m  
+ERROR[39m [38;5;3m[Ty
+peOrmModule] 
+[39m[31mUnable to 
+connect to the 
+database. Retrying 
+(8)...[39m
+DataTypeNotSupportedErr
+or: Data type "enum" 
+in 
+"Service.pricingModel" 
+is not supported by 
+"sqlite" database.
+    at <anonymous> (C:\
+Users\ashwa\OneDrive\De
+sktop\00_prototype_app\
+backend-nest\node_modul
+es\typeorm\metadata-bui
+lder\src\metadata-build
+er\EntityMetadataValida
+tor.ts:133:31)
+    at Array.forEach 
+(<anonymous>)
+    at EntityMetadataVa
+lidator.validate (C:\Us
+ers\ashwa\OneDrive\Desk
+top\00_prototype_app\ba
+ckend-nest\node_modules
+\typeorm\metadata-build
+er\src\metadata-builder
+\EntityMetadataValidato
+r.ts:128:18)
+    at <anonymous> (C:\
+Users\ashwa\OneDrive\De
+sktop\00_prototype_app\
+backend-nest\node_modul
+es\typeorm\metadata-bui
+lder\src\metadata-build
+er\EntityMetadataValida
+tor.ts:43:18)
+    at Array.forEach 
+(<anonymous>)
+    at EntityMetadataVa
+lidator.validateMany (C
+:\Users\ashwa\OneDrive\
+Desktop\00_prototype_ap
+p\backend-nest\node_mod
+ules\typeorm\metadata-b
+uilder\src\metadata-bui
+lder\EntityMetadataVali
+dator.ts:42:25)
+    at DataSource.build
+Metadatas (C:\Users\ash
+wa\OneDrive\Desktop\00_
+prototype_app\backend-n
+est\node_modules\typeor
+m\data-source\src\data-
+source\DataSource.ts:75
+3:33)
+    at async 
+DataSource.initialize (
+C:\Users\ashwa\OneDrive
+\Desktop\00_prototype_a
+pp\backend-nest\node_mo
+dules\typeorm\data-sour
+ce\src\data-source\Data
+Source.ts:264:13)
+[31m[Nest] 28928  - 
+[39m15/03/2026, 
+3:01:53 am [31m  
+ERROR[39m [38;5;3m[Ty
+peOrmModule] 
+[39m[31mUnable to 
+connect to the 
+database. Retrying 
+(9)...[39m
+DataTypeNotSupportedErr
+or: Data type "enum" 
+in 
+"Service.pricingModel" 
+is not supported by 
+"sqlite" database.
+    at <anonymous> (C:\
+Users\ashwa\OneDrive\De
+sktop\00_prototype_app\
+backend-nest\node_modul
+es\typeorm\metadata-bui
+lder\src\metadata-build
+er\EntityMetadataValida
+tor.ts:133:31)
+    at Array.forEach 
+(<anonymous>)
+    at EntityMetadataVa
+lidator.validate (C:\Us
+ers\ashwa\OneDrive\Desk
+top\00_prototype_app\ba
+ckend-nest\node_modules
+\typeorm\metadata-build
+er\src\metadata-builder
+\EntityMetadataValidato
+r.ts:128:18)
+    at <anonymous> (C:\
+Users\ashwa\OneDrive\De
+sktop\00_prototype_app\
+backend-nest\node_modul
+es\typeorm\metadata-bui
+lder\src\metadata-build
+er\EntityMetadataValida
+tor.ts:43:18)
+    at Array.forEach 
+(<anonymous>)
+    at EntityMetadataVa
+lidator.validateMany (C
+:\Users\ashwa\OneDrive\
+Desktop\00_prototype_ap
+p\backend-nest\node_mod
+ules\typeorm\metadata-b
+uilder\src\metadata-bui
+lder\EntityMetadataVali
+dator.ts:42:25)
+    at DataSource.build
+Metadatas (C:\Users\ash
+wa\OneDrive\Desktop\00_
+prototype_app\backend-n
+est\node_modules\typeor
+m\data-source\src\data-
+source\DataSource.ts:75
+3:33)
+    at async 
+DataSource.initialize (
+C:\Users\ashwa\OneDrive
+\Desktop\00_prototype_a
+pp\backend-nest\node_mo
+dules\typeorm\data-sour
+ce\src\data-source\Data
+Source.ts:264:13)
+[31m[Nest] 28928  - 
+[39m15/03/2026, 
+3:01:53 am [31m  
+ERROR[39m [38;5;3m[Ex
+ceptionHandler] [39mDa
+taTypeNotSupportedError
+: Data type "enum" in 
+"Service.pricingModel" 
+is not supported by 
+"sqlite" database.
+    at <anonymous> [90
+m(C:\Users\ashwa\OneDri
+ve\Desktop\00_prototype
+_app\backend-nest\[39m
+node_modules\[4mtypeor
+m[24m\metadata-builder
+\src\metadata-builder\E
+ntityMetadataValidator.
+ts:133:31[90m)[39m
+    at Array.forEach 
+(<anonymous>)
+    at EntityMetadataVa
+lidator.validate [90m(
+C:\Users\ashwa\OneDrive
+\Desktop\00_prototype_a
+pp\backend-nest\[39mno
+de_modules\[4mtypeorm
+[24m\metadata-builder\s
+rc\metadata-builder\Ent
+ityMetadataValidator.ts
+:128:18[90m)[39m
+    at <anonymous> [90
+m(C:\Users\ashwa\OneDri
+ve\Desktop\00_prototype
+_app\backend-nest\[39m
+node_modules\[4mtypeor
+m[24m\metadata-builder
+\src\metadata-builder\E
+ntityMetadataValidator.
+ts:43:18[90m)[39m
+    at Array.forEach 
+(<anonymous>)
+    at EntityMetadataVa
+lidator.validateMany [
+90m(C:\Users\ashwa\OneD
+rive\Desktop\00_prototy
+pe_app\backend-nest\[3
+9mnode_modules\[4mtype
+orm[24m\metadata-build
+er\src\metadata-builder
+\EntityMetadataValidato
+r.ts:42:25[90m)[39m
+    at DataSource.build
+Metadatas [90m(C:\User
+s\ashwa\OneDrive\Deskto
+p\00_prototype_app\back
+end-nest\[39mnode_modu
+les\[4mtypeorm[24m\da
+ta-source\src\data-sour
+ce\DataSource.ts:753:33
+[90m)[39m
+    at async 
+DataSource.initialize 
+[90m(C:\Users\ashwa\One
+Drive\Desktop\00_protot
+ype_app\backend-nest\[
+39mnode_modules\[4mtyp
+eorm[24m\data-source\s
+rc\data-source\DataSour
+ce.ts:264:13[90m)[39m

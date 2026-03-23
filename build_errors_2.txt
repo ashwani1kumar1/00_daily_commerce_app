@@ -1,0 +1,2 @@
+﻿src/seed/seed.service.ts(82,34): error TS2339: Property 'needsInspection' does not exist on type '{ name: string; basePrice: number; model: PricingModel; unit: string; } | { name: string; basePrice: number; model: PricingModel; unit: string; needsInspection: boolean; }'.
+  Property 'needsInspection' does not exist on type '{ name: string; basePrice: number; model: PricingModel; unit: string; }'.
