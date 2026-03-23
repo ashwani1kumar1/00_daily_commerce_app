@@ -3,6 +3,18 @@ dist/
 .venv/
 __pycache__/
 *.pyc
+
+# Environment variable files — never commit real credentials
 .env
+.env.local
+.env.*.local
 frontend/.env
+frontend/.env.local
 backend/.env
+backend/.env.local
+
+# Log files
+*.log
+*_err.txt
+*_errors.txt
+logs/
